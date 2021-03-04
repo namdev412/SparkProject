@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Project..!!</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="{% static 'css/MyFile.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <a class="navbar-brand" href="/">CORE BANKING</a>
+    </div>
+      <ul class="nav navbar-nav">
+          <li><a href="/cust">customer</a> </li>
+      </ul>
+      <ul class="navbar navbar-nav navbar-right">
+          <li><a href="/signup">Signup</a> </li>
+
+          <li><a href="/accounts/login">Login</a> </li>
+
+          <li><a href="/accounts/logout">Logout</a> </li>
+      </ul>
+
+  </div>
+</nav>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
