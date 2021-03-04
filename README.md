@@ -21,6 +21,6 @@ py manage.py runserver
 
 >open admin - enter superuser credential
 
-create manager in admin panel
+>create manager in admin panel
 
-open customer page - register customer.
+>open customer page - register customer.
