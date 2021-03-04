@@ -7,7 +7,7 @@ Steps to run the code:
 >copy code and paste inside new project
 
 >create superuser through python terminal:
-django-admin createsuperuser
+py manage.py createsuperuser
 Enter username & password.
 
 >run makemigrations:
